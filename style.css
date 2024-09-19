@@ -44,6 +44,22 @@ header p {
     padding-bottom: 50px;
 }
 
+nav {
+    text-align: left;
+    padding: 15px;
+}
+
+nav a {
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -63,6 +79,8 @@ section {
 }
 
 section p {
+    border: 1px black solid;
+    width: 500px;
     padding-bottom: 2em;
 }
 
@@ -100,4 +118,16 @@ footer {
 
 footer p {
     font-size: 1.5em;
+}
+
+/* Estilo da pagina modificada */
+
+img {
+    width: 30vw;
+    height: 30vh;
+    transition: ease 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
