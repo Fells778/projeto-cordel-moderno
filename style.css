@@ -21,6 +21,7 @@
 body {
     font-family: var(--fonte01);
     font-weight: normal;
+    background-color: antiquewhite;
     /* = */
     min-height: 100vh;
 }
@@ -79,8 +80,6 @@ section {
 }
 
 section p {
-    border: 1px black solid;
-    width: 500px;
     padding-bottom: 2em;
 }
 
@@ -121,13 +120,43 @@ footer p {
 }
 
 /* Estilo da pagina modificada */
-
-img {
-    width: 30vw;
-    height: 30vh;
-    transition: ease 1s;
+.section-modificada {
+    max-width: 1400px;
+    color: white;
+    margin: auto;
+    font-size: 2vw;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.493);
 }
 
-img:hover {
-    transform: scale(1.1);
+.section-modificada p {
+    display: table;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.897);
+    box-shadow: 3px 3px 0px 0px  rgba(255, 255, 255, 0.603);
+}
+
+#section-background01-modified {
+    background: grey url(imagens/homem-escrevendo-poema.jfif) left center no-repeat fixed;
+    background-size: cover;
+}
+
+#section-background02-modified {
+    background: grey url(imagens/coração-e-flor.jfif) left center no-repeat fixed;
+    background-size: cover;
+}
+
+#section-background03-modified {
+    background: grey url(imagens/pessoas-conversando-por-emoticons.jfif) left center no-repeat fixed;
+    background-size: cover;
+}
+
+#section-background04-modified {
+    background: grey url(imagens/homem-escrevendo-carta.jfif) left center no-repeat fixed;
+    background-size: cover;
+}
+
+#section-background05-modified {
+    background: grey url(imagens/pessoa-rezando.jfif) left center no-repeat fixed;
+    background-size: cover;
 }
