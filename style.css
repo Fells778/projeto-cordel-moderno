@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --cor01: #000000;
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+/* Todo o comentario que tiver esse sinal = 
+ significa que fiz com ajuda do curso em video
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte01);
+    font-weight: normal;
+    /* = */
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 10vw;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    padding-top: 50px;
+}
+
+header p {
+    font-size: 1.6em;
+    font-variant: small-caps;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    background-color: gainsboro;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-family: var(--fonte03);
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+.section-normal {
+    background-color: white;
+}
+
+.background-imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+}
+
+#section-background01 {
+    background: grey url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+#section-background02 {
+    background: grey url(imagens/background002.jpg) right center no-repeat fixed;
+}
+
+#section-background01 p, #section-background02 p {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 5px black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1.5em;
+}
