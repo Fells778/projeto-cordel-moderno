@@ -15,5 +15,5 @@ Projeto do cordel feito através do curso em vídeo, mas com algumas modificaç�
 
 ## Referência
 
- - [Material do desafio 12 do Curso em Vídeo](https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://github.com/gustavoguanabara/html-css/blob/master/desafios/modulo-02/d012/desafio-cordel.pdf))
+ - [Material do desafio 12 do Curso em Vídeo](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-02/d012)
  - [Autor do cordel](https://www.recantodasletras.com.br/poesias/3186743)
